@@ -65,7 +65,7 @@ function createVue({styles, html, js, scopedStyles}) {
   js && (vue += `<script>${js}</script>`)
   styles.length > 0 && (vue += `<style>${styles.join('\n')}</style>`)
   scopedStyles.length > 0 && (vue += `<style scoped>${scopedStyles.join('\n')}</style>`)
-	return vue
+  return vue
 }
 
 module.exports = {
