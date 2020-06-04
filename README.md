@@ -7,5 +7,5 @@
 3. 从`master`切一个新分支`release-vx.x.x`
 4. `npm version patch` or `npm version mirror` 作用是`打git tag`并且修改`package.json`中的版本
 5. `git push origin release-vx.x.x`
-5. `git push origin --tags`
-6. `npm publish`
+6. `git push origin --tags`
+7. `npm publish`
