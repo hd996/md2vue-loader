@@ -61,10 +61,10 @@ function parseMd(source) {
 
 function createVue({styles, html, js, scopedStyles}) {
   let vue = ''
-  html && (vue += `<template>${html}</template>`)
-  js && (vue += `<script>${js}</script>`)
-  styles.length > 0 && (vue += `<style>${styles.join('\n')}</style>`)
-  scopedStyles.length > 0 && (vue += `<style scoped>${scopedStyles.join('\n')}</style>`)
+  html && (vue += `<template>\r\n${html}\r\n</template>\r\n`)
+  js && (vue += `\r\n<script>\r\n${js}\r\n</script>\r\n`)
+  styles.length > 0 && (vue += `\r\n<style>\r\n${styles.join('\n')}\r\n</style>\r\n`)
+  scopedStyles.length > 0 && (vue += `\r\n<style scoped>\r\n${scopedStyles.join('\n')}\r\n</style>`)
   return vue
 }
 

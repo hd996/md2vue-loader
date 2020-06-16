@@ -4,9 +4,9 @@
 Button Component
 
 ```html
-<agora-button></agora-button>
-<agora-button class="scoped-button"></agora-button>
-<p>{{msg}}</p>
+  <agora-button></agora-button>
+  <agora-button class="scoped-button"></agora-button>
+  <p>{{msg}}</p>
 ```
 
 ```javascript
