@@ -1,4 +1,4 @@
-## Agora Md2Vue Loader
+## Md2Vue Loader
 
 ## 使用
 ```bash
